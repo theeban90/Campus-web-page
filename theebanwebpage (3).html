@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DR.N.G.P INSTITUTE OF TECHNOLOGY</title>
+    <link rel="icon" href="download (9).png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <style>
+        html{
+            background-color:#fff;
+        }
+        .tea ul li{
+            list-style-type : none;
+            float:left;
+            border: 2px inset;
+            border-color: green;
+            font-family: sans-serif;
+            width:93px;
+            margin-left:45px;
+            padding:2px;
+            cursor: pointer;
+            box-shadow: 4px 4px lightcoral;
+            display: flex;
+            justify-content: space-around;
+            margin-top:10px;
+            font-size:14px;
+            
+            
+          
+        }
+        .tea ul li a{
+            text-decoration: none;
+            color: black;
+
+        }
+        .tea ul{
+            padding-left:190px;
+           
+        }
+        
+        h1{
+            text-align: center;
+            color: black;
+            padding-top:80px;
+        }
+     
+        .info h3{
+            text-align: center;
+            margin: 0;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px darkred, 0 0 5px #000;
+        }
+        .tea .bun li:hover{
+            background-color:rgba(125,99,225,0.3);
+            color: #000;
+            border-radius: 3px;
+        }
+        img{
+            width: 100%;
+           height: 500px;
+           padding-top: 20px;
+        }
+        address,h4{
+            text-align: center;
+        }
+        h5{
+            text-align: center;
+        }
+        h5 a{
+            cursor: pointer;
+        }
+        
+        .tea ul li{
+            border: 2px solid green;
+            border-radius:1px;
+        }
+        .photo img{
+            padding:0;
+            float: left;
+            opacity: 1;
+
+        }
+        .photo p{
+            font-family:'Times New Roman', Times, serif;
+            font-size:17px;
+            color: darkblue;
+        }
+       
+        .ter{
+            padding-top:0px;
+            font-size: 17px;
+            color: black;
+        }
+        .info{
+            margin-top:-200px;
+        }
+         .bun .active:hover{
+            background-color: aqua;
+            border-radius: 3px;
+        }
+        .sub-menu1{
+            display: none;
+            border: 0px;
+        }
+        .tea ul li.sub-menu1{
+            display: block;
+            position: absolute;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        .row{
+            display: flex;
+            height:88%;
+            align-items: center;
+        }
+        .col h1{
+            text-align: left;
+            margin-top:-130px;
+        }
+       
+        .card{
+            
+            width: 200px;
+            height: 230px;
+            display:inline-block;
+            border-radius: 10px;
+            padding-left:35px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin-right: 14px;
+            margin-left:76px;
+            background: url(download\ \(11\).jpeg);
+            z-index:-1;
+            background-position: center;
+            background-size: cover;
+            border: 2px inset green;
+            border-collapse: separate;  
+            font-weight: bolder;
+            
+        }
+        .col{
+            flex-basis: 50%;
+        }
+        .col h1{
+            padding-left:0px;
+            padding-top:150px;
+        }
+        .info h5 a{
+            text-decoration: none;
+            border: 3px solid green;
+            border-radius:8px ;
+            padding-left:20px;
+            text-align: center;
+            padding-right: 13px;
+            color: black;
+        }
+        .info h5 a:hover{
+            background-color:black;
+            color: aliceblue;
+        }
+        .card-1{
+            
+            width: 200px;
+            height: 230px;
+            display:inline-block;
+            border-radius: 10px;
+            padding-left:35px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin-right: 14px;
+            margin-left:55px;
+            background: url(download\ \(12\).jpeg);
+            
+            z-index:-1;
+            background-position: center;
+            background-size: cover;
+            border: 2px inset green;
+            border-collapse: separate;  
+            margin-bottom: 30px;
+            font-weight: bolder;
+            background-color: white;
+            backdrop-filter:blur(100px);
+            
+            
+        }
+      
+        .card-2{
+            width: 200px;
+            height: 230px;
+            display:inline-block;
+            border-radius: 10px;
+            padding-left:35px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin-right: 14px;
+            margin-left:76px;
+            background: url(images\ \(2\).jpeg);
+            z-index:-1;
+            background-position: center;
+            background-size: cover;
+            border: 2px inset green;
+            border-collapse: separate; 
+            font-weight: bolder; 
+            
+        }
+        .card-3{
+            width: 200px;
+            height: 230px;
+            display:inline-block;
+            border-radius: 10px;
+            padding-left:35px;
+            
+            box-sizing: border-box;
+            cursor: pointer;
+            margin-right: 14px;
+            margin-left:59px;
+            margin-bottom: 20px;
+            background: url(images\ \(3\).jpeg);
+            background-position: center;
+            background-size: cover;
+            border: 2px inset green;
+            
+          
+        }
+        .card-3:hover{
+            transform: perspective(500px) scaleY(0.9) rotateY(15deg);
+            background:url(download\ \(22\).jpeg);
+            color: #fff;
+        }
+        
+        .tea .bun li{
+            border: 2px solid rgba(190, 1,255,0.5 );
+        }
+        .card-3 .p1{
+            color:black;
+            font-weight: bolder;
+
+        }
+        ::-webkit-scrollbar{
+            width: 15px;
+        }
+        ::-webkit-scrollbar-track{
+            background: #d1e5ff;
+        }
+        ::-webkit-scrollbar-thumb{
+            background: linear-gradient(#642bff,#ff22e6);
+            border-radius: 10px;
+            box-shadow: #ff22e6;
+        }
+        .col h2{
+            color:#4B0082;
+        }
+        .life{
+            margin-top: 20px;
+        }
+        .life h2{
+            margin-top: 30px;
+            text-align: left;
+            font-size: xx-large;
+        }
+        .life ul li{
+            
+            list-style: none;
+            padding-left:550px;
+            width: 650px;
+            height:115px;
+            font-size:large;
+            font-family: fantasy;
+        }
+       
+        .background {
+            display: flex;
+            width: 550px; 
+            height:500px; 
+            background-image: url(download\ \(22\).jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: change infinite 10s ease-in-out;
+        }
+       
+        
+        
+        @keyframes change{
+            
+
+            0%{
+                background-image: url(download\ \(11\).jpeg);
+               
+                
+                
+                
+                
+
+            }
+            20%{
+                background-image: url(download\ \(21\).jpeg);
+                
+                
+            }
+            40%{
+                background-image: url(download\ \(5\).jpeg);
+
+            }
+            60%{
+                background-image: url(download__1_-removebg-preview.png);
+            }
+            100%{
+                background-image: url(download\ \(6\).jpeg);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <div class="tea">
+        <ul class="bun">
+            <li><i class="fa fa-home"></i><a href="https://www.drngpit.ac.in/about">Home</a></li>
+            <li><i class="fa fa-address-card"></i>ABOUT</li>
+            <li><i class="fa fa-building"></i>DEPARTMENT</li>
+            <div class="sub-menu1">
+                <ul>
+                    <li>CSE</li>
+                    <li>EEE</li>
+                    <li>MECH</li>
+                    <li>CIVIL</li>
+                </ul>
+            </div>
+            <li><i class="fa fa-clone"></i>APPLY</li>
+            <li><i class="fa fa-phone-square"></i>PROJECTS</li>
+            <li><i class="fa fa-globe"></i>PLACEMENTS</li>
+            <li><i class="fa fa-credit-card"></i>FEES PORTAL</li>
+        </ul>
+    </div>
+    <img src="https://www.drngpit.ac.in/assets/images/logo/ngp-itech-logo.png" alt="#" style="width:170px;height:170px;margin-right:1px; margin-top:-63px;" >
+
+    <div class="info">
+    <h1>DR.N.G.P INSTITUTE OF TECHNOLOGY</h1>
+    <h3>(An Autonomous Institution)</h3>
+    <p><h4>Approved by AICTE,New Delhi and Affiliated to Anna university,Chennai</h4></p>
+    <p><h4>Recognized by UGC,Accredited by NAAC with A+ Grade and Accredited by NBA(BME,CSE,ECE,EEE & MECH)</h4></p>
+    <address><h4>Dr.N.G.P:-Kalapatti Road,Coimbatore-641048.Tamil Nadu </h4></address>
+    <h5>Phone:0422-2345678   <a href="http://www.drngpit.ac.in/">E-mail</a>     <a href="https://www.drngpit.ac.in/">Website</a></h5>
+    </div>
+    <div class="cong">
+      
+            <div class="image">
+                <img src="https://www.drngpit.ac.in/assets/images/home/ngpitech-mobile.jpg" alt="#">
+            </div>
+                
+    </div>
+   
+        
+    </div>
+    <div class="row">
+        
+        <div class="col">
+		     <h2>MECH</h2>
+			 <p>Mechanical engineers work on cars, planes, tools, weapons and machines, while civil engineers work on buildings and infrastructure. Mechanical engineers focus on an object's function, while civil engineers focus on an object's structure and appearance.</p>
+		     <h2>CIVIL</h2>
+			 <p>The main scope of civil engineering is planning, designing, estimating, supervising, managing and maintenance of structures like building, roads, bridges, dams</p>
+		     <h2>ECE</h2>
+			 <p>An electronics and communication engineer can work in aviation and avionics, consumer electronics, electricity plant, manufacturing, distribution, communication & telecommunication, computer application, radio & television, analytical equipment manufacturing and offshore industries</p>
+		    <h2>EEE</h2>
+			<p>Electrical engineers can also apply for respective and relevant vacancies coming out of State-Electricity Boards, PWD department, Thermal Power Plants, Nuclear Power Stations, Hydro-electric Power Stations, Solar Power plants, Indian Army, Indian Airforce, Indian Navy, and Indian Railways.</P>
+            <h2>CSE</h2>
+			<p>Professionals holding a computer science and engineering degree can work as Computer Engineers, Lecturers, IT Team Leads, Data Scientists, Systems Managers, Software Engineers, ML Researcher, AI Engineer, Software Developer, Systems Analyst, and Systems Engineers across different industries.
+            <h2>BME</h2>
+			<p>The scope for BME is everything around the improvement of human health and healthcare systems. By blending the power of technology with biomedicine, biomedical engineers have created many life-saving medical devices to increase the scope of biomedical engineering in our lives.</p>
+        </div>
+        
+    </div>
+    
+    </div>
+    
+</body>
+</html>
